@@ -14,9 +14,9 @@ Hello! I am JS developer!
 * JS, TS, NodeJs, NestJs
 * PHP
 
-*	Finding solutions with limited budgets
-*	Teamwork
-*	Open-minded
+* Finding solutions with limited budgets
+* Teamwork
+* Open-minded
 
 # Code examples
 ```
@@ -38,10 +38,8 @@ Object.create = function(prototype, properties = {}) {
 * Belarusian university of informatics and radio electronics
     + Faculty of radio technical and electronic
 
-
 # Languages
 * English Pre-Intermediate A2
 * French Pre-Intermediate A2
 * Russian
 * Polish
-
