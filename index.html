@@ -2,12 +2,139 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="./style.css">
+  <title>cv</title>
 </head>
+
 <body>
+
+<header>
+  <div class="inner-wrapper">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#contacts" class="nav-link">My contacts</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About me</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item">
+          <a href="#experience" class="nav-link">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a href="#education" class="nav-link">Education</a>
+        </li>
+        <li class="nav-item">
+          <a href="#languages" class="nav-link">Languages</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="inner-wrapper">
+    <section class="section section-profile" id="profile">
+        <h1 class="section-title">Kripakoff</h1>
+      <div>
+        <img src="assets/img/avatar2.jpg" alu="avatar image">
+      </div>
+    </section>
+    <section class="section" id="contacts">
+      <h2 class="section-title">&lt; My contacts &#47;&gt;</h2>
+      <ul>
+        <li><b>GSM:</b> +312 234 23-23-21</li>
+        <li><b>Telegram:</b> Kripakoff</li>
+        <li><b>GitHub:</b> Kripakoff</li>
+        <li><b>Discord:</b> Kripakoff</li>
+      </ul>
+    </section>
+    <section class="section" id="about">
+      <h2 class="section-title">&lt; About me &#47;&gt;</h2>
+      <p>
+        My target is to become a JS Full-stack developer.
+        For a long time it was a hobby for me, but i very
+        like to find solutions for logical tasks.
+      </p>
+    </section>
+    <section class="section" id="skills">
+      <h2 class="section-title">&lt; Skills &#47;&gt;</h2>
+      <ul>
+        <li>React</li>
+        <li>NodeJs</li>
+        <li>PHP</li>
+        <li>I can lie on the couch</li>
+      </ul>
+    </section>
+    <section class="section" id="code">
+      <h2 class="section-title">&lt; Code examples &#47;&gt;</h2>
+      <pre class="pre">
+<code>
+Object.create = function(prototype, properties = {}) {
+  if (typeof prototype === 'object' && typeof properties === 'object') {
+    const obj = {};
+    obj.__proto__ = prototype;
+    Object.defineProperties(obj, properties);
+    return obj;
+  }
+  throw new TypeError();
+};
+</code>
+</pre>
+
+    </section>
+    <section class="section" id="experience">
+      <h2 class="section-title">&lt; Experience &#47;&gt;</h2>
+      <p>
+        2 years programming
+      </p>
+    </section>
+    <section class="section" id="education">
+      <h2 class="section-title">&lt; Education &#47;&gt;</h2>
+      <p>
+        Belarusian university of informatics and radioelectronics
+        Faculty of radio technical and electronic
+      </p>
+    </section>
+    <section class="section" id="languages">
+      <h2 class="section-title">&lt; Languages &#47;&gt;</h2>
+      <ul>
+        <li>English Intermediate B1</li>
+        <li>French Intermediate B1</li>
+        <li>Russian C2</li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="inner-wrapper footer-wrapper">
+    <div class="rss-logo">
+      <a href="https://rs.school/courses/javascript-preschool-ru">
+        <img src="./assets/img/rs_logo.svg" alt="GitHub Logo">
+      </a>
+    </div>
+    <div class="git-logo">
+      <a href="https://github.com/Kripakoff">
+        <img src="./assets/img/git_logo.svg" alt="GitHub Logo">
+        My GitHub
+      </a>
+    </div>
+    <div>
+      © 2024
+    </div>
+
+
+  </div>
+</footer>
 
 </body>
 </html>
