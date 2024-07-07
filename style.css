@@ -78,6 +78,16 @@ h2 {
     color: #4d4d4d;
 }
 
+.section a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+.section a:hover {
+    color: black;
+}
+
 .section li {
     padding: 5px 0;
 }
